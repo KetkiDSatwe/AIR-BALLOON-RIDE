@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+  <script src="p5.play.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+  <script>
+    // Your Firebase configuration - the part u need to change
+    const firebaseConfig = {
+  apiKey: "AIzaSyAf0rxRbnrma1q7o7oMSQNNFp0YYjU79u0",
+  authDomain: "air-ballon-debd6.firebaseapp.com",
+  databaseURL: "https://air-ballon-debd6-default-rtdb.firebaseio.com",
+  projectId: "air-ballon-debd6",
+  storageBucket: "air-ballon-debd6.appspot.com",
+  messagingSenderId: "869192715079",
+  appId: "1:869192715079:web:12cbea6cd5913c56ae9a62"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
